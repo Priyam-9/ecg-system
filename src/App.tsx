@@ -61,7 +61,7 @@ const App = () => {
     const baselineNoise = () => (Math.random() - 0.5) * 0.1;
 
     for (let i = 0; i < length; i++) {
-      const t = (i / length) * 4 * Math.PI;
+      // const t = (i / length) * 4 * Math.PI;
       let value = 0;
 
       // P wave
